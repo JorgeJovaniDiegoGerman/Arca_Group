@@ -23,6 +23,9 @@ Route::get('/', function () {
 Route::get('/Arca_Group', function () {
     return view('section_arca_group/index');
 });
+Route::get('/menua', function () {
+    return view('menu');
+});
 /*
 |----------------------------------------------------------------------------
 |   Rutas de emails

@@ -12,19 +12,19 @@ use App\Http\Controllers\Emails\ContactanosController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('index');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
 /*
 |----------------------------------------------------------------------------
 |   Secciones del index
 |----------------------------------------------------------------------------
 */
-Route::get('/Arca_Group', function () {
-    return view('section_arca_group/index');
-});
-Route::get('/menua', function () {
-    return view('menu');
+ Route::get('/Arca_Group', function () {
+     return view('section_arca_group/index');
+ });
+Route::get('/', function () {
+    return view('index');
 });
 /*
 |----------------------------------------------------------------------------

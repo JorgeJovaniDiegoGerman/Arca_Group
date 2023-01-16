@@ -20,8 +20,8 @@ use App\Http\Controllers\Emails\ContactanosController;
 |   Secciones del index
 |----------------------------------------------------------------------------
 */
- Route::get('/Arca_Group', function () {
-     return view('section_arca_group/index');
+ Route::get('/Cobertura', function () {
+     return view('cobertura/index');
  });
 Route::get('/', function () {
     return view('index');
@@ -31,4 +31,4 @@ Route::get('/', function () {
 |   Rutas de emails
 |----------------------------------------------------------------------------
 */
-Route::post('contacto',[ContactanosController::class,'storeContacto'])->name('contacto');
+// Route::post('contacto',[ContactanosController::class,'storeContacto'])->name('contacto');

@@ -71,9 +71,8 @@
                 </a>
             </div>
             <div class="caja">
-                <a href="#">
-                    <div class="fondo-img cobertura"><img src="iconos/index/Imagen9.png" alt="" width="90%" srcset="">
-                    <i class="fa-solid fa-lock"></i></div>
+                <a href="/Cobertura">
+                    <div class="fondo-img cobertura"><img src="iconos/index/Imagen9.png" alt="" width="90%" srcset=""></div>
                     <p>Cobertura <br/> </p>
                 </a>
             </div>
